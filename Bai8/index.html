@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bài 8</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body class="b8">
+	<div class="container">
+		<div class="header">
+			<h2 class="heading">Fill the Form & Make a booking</h2>
+			<img src="images/bt9-img.png" alt="" class="img-responsive">
+		</div>
+		<div class="main">
+			<form action="" method="get">
+				<div class="row">
+					<div class="item col-md-6 col-12">
+						<div class="item-content">
+							<fieldset class="form-group">
+								<legend>Your email address</legend>
+								<input type="email" class="form-control" placeholder="tuandhv96@gmail.com">
+							</fieldset>
+							<fieldset class="form-group">
+								<legend>Name</legend>
+								<input type="text" id="name" class="form-control" value="Thanh Tuấn">
+							</fieldset>
+							<fieldset class="form-group">
+								<legend>Telephone number</legend>
+								<input type="text" id="phone" class="form-control" placeholder="+84364081626">
+							</fieldset>
+						</div>
+					</div>
+					<div class="item col-md-6 col-12">
+						<div class="item-content">
+							<fieldset class="form-group">
+								<legend>Notes</legend>
+								<textarea class="form-control" rows="5" placeholder="Some special request?"></textarea>
+							</fieldset>
+							<div class="form-group">
+								<span class="no-of-guest">No of guest</span>
+								<input type="text" id="guest" value="3" class="form-control x">
+							</div>
+						</div>
+					</div>
+				</div>	
+
+				<div class="btn-submit">
+					<button type="submit" class="btn btn-danger">
+						RESERVE your seat(s)
+					</button>
+				</div>
+			</form>
+		</div>
+		<p id="result" style="color: green; margin-top: 60px;"></p>
+		<p id="error" style="color: red; margin-top: 60px;"></p>
+		<div class="footer">
+			<p>For further information call</p>
+			<p class="xx">+9999999999999999</p>
+		</div>
+	</div>
+	<!-- script file -->
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="js/myjs.js"></script>
+</body>
+</html>

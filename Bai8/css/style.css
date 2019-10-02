@@ -1,0 +1,95 @@
+.b8 .container	{
+	background: #4cc3fc;
+	padding: 15px 100px 50px 100px;
+	max-width: 800px;
+}
+
+.b8 .header {
+	background: #fff;
+}
+
+.b8 .heading {
+	font-size: 20px;
+	padding: 10px 40px;
+	font-weight: bold;
+	color: #347bb3;
+	margin-bottom: 0;
+}
+
+.b8 .img-responsive {
+	width: 100%;
+}
+
+.b8 .main {
+	padding: 20px;
+	background: #fff;
+}
+
+.b8 fieldset {
+	border: 1px solid #56c6fc;
+  	padding: 10px 20px;
+  	margin: 20px 0;
+}
+
+.b8 input, .b8 textarea {
+	border: none;
+	outline: none;
+	margin-top: -15px;
+}
+
+.b8 legend {
+	width: auto;
+  	padding: 0 10px;
+  	font-size: 16px;
+  	color: #347bb3;
+}
+
+.b8 .form-control:focus {
+	box-shadow: none;
+}
+
+.b8 .no-of-guest {
+	color: #347bb3;
+}
+
+.b8 .x {
+	margin: 0;
+	display: inline;
+	width: 45px;
+	border: 1px solid #56c6fc;
+	text-align: center;
+	margin-left: 10px;
+}
+
+.b8 .main {
+	position: relative;
+}
+
+.b8 .btn-submit {
+	position: absolute;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+
+.b8 button[type=submit] {
+	padding: 10px 30px;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.b8 .footer {
+	color: #fff;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.b8 .xx{
+	font-weight: bold;
+}
+
+@media (max-width: 767px) {
+	.b8 .container {
+		padding: 0;
+	}
+}
